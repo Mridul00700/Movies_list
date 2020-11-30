@@ -1,0 +1,20 @@
+.btn-n{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    background: url(./images/starn.jpg);
+    background-size: 100%;
+
+}
+
+.btn-y {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+    background: url(./images/stary.jpg);
+    background-size: 100%;
+}
