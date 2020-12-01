@@ -6,7 +6,7 @@ export const MovieContext = createContext();
 
 export default props => {
 
-    const [favMovie, setFavMovie] = useState([{ name: "Inception", rating :8.9, fav: false }, {name: "Interstellar", rating : 8.8, fav: false}]); 
+    const [favMovie, setFavMovie] = useState([{ name: "Inception", rating :8.9, fav: false }, {name: "Interstellar", rating : 8.8, fav: false}, {name: "Tenet", rating: 8.4, fav: false }]); 
 
 
     const setMovie = (movie) => {

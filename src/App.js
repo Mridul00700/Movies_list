@@ -3,7 +3,6 @@ import Movies from './Movies';
 import { Route, Switch} from 'react-router-dom';
 import Favourites from './Favourites';
 
-
 function App() {
 
   let route = (
@@ -13,9 +12,6 @@ function App() {
     <Route path="/" component={Movies} />
     </Switch >
   )
-
-
-
 
 return (
   <div className="App">
