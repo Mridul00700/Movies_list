@@ -5,9 +5,9 @@ import Favourites from './Favourites';
 
 function App() {
 
+  //Routes of different page (Pagination) 
   let route = (
     <Switch>
-    
     <Route path="/favourite" component={Favourites} />
     <Route path="/" component={Movies} />
     </Switch >
